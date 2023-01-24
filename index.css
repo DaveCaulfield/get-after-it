@@ -3,7 +3,8 @@ body {
     background-size: cover;
     font-family: Black Ops One, cursive, sans-serif;
     text-align: center;
-    color: white
+    color: white;
+    font-size: 1.5rem;
 }
 
 .container {
@@ -11,7 +12,13 @@ body {
     margin: 100px auto;
     border: 3px solid gray;
     border-radius: 10px;
-    max-width: 500px;
+    width: 80vw;
+    max-width: 800px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -42,4 +49,12 @@ button {
 
 #save-btn {
     background: #54CA3D;
+}
+
+
+@media screen and (min-width: 600px) {
+    .container {
+        height: 50vh;
+        padding: 2%;
+    }
 }
